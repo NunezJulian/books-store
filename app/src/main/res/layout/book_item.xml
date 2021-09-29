@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_item_book"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            tools:src="@mipmap/ic_launcher_round"
+            android:layout_margin="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_book_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                tools:text="Book title"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_book_author"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                tools:text="Author"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:id="@+id/divider"
+        android:background="@color/black"
+        />
+
+
+
+</LinearLayout>
